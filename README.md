@@ -2,7 +2,7 @@
 
 ---
 
-Base 是一个基础类，提供 Class、Events、Attribute 和 Aspect 支持。
+Base 是一个基础类，提供 Class、Events、Attribute 和 Aspect 支持。fork 自 [arale-base](https://github.com/aralejs/base)
 
 ## 安装
 
