@@ -1,6 +1,6 @@
 {
   "name": "nd-base",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Base 是一个基础类，提供 Class、Events、Attribute 和 Aspect 支持。",
   "keywords": [],
   "homepage": "https://github.com/ndfront/nd-base",
@@ -26,7 +26,7 @@
       "nd-class": "0.0.0",
       "nd-events": "0.0.0",
       "nd-aspect": "0.0.0",
-      "nd-attribute": "0.0.0"
+      "nd-attribute": "0.0.1"
     },
     "devDependencies": {
       "expect.js": "0.3.1",
