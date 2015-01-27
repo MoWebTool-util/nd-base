@@ -24,7 +24,7 @@
     "main": "index.js",
     "dependencies": {
       "nd-class": "0.0.0",
-      "nd-events": "0.0.0",
+      "nd-events": "0.0.1",
       "nd-aspect": "0.0.0",
       "nd-attribute": "0.0.1"
     },
