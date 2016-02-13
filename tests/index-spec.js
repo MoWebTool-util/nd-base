@@ -1,7 +1,6 @@
 var expect = require('expect.js');
 var sinon = require('sinon');
 var Base = require('../index');
-var Attribute = require('nd-attribute');
 var $ = require('jquery');
 
 describe('Base', function() {
@@ -803,18 +802,6 @@ describe('Base', function() {
     });
     var t = new T({focus: moment()});
     expect(moment.isMoment(t.get('focus'))).to.be.ok();
-  });
-
-  it('isPlainObject #19', function() {
-    function Foo() {
-      this['c'] = 'c';
-      this['d'] = 'd';
-    }
-    Foo.prototype = {
-      'a': 'a',
-      'b': 'b'
-    };
-    expect(Attribute._isPlainObject(new Foo())).not.to.be.ok();
   });
 
   it('setter need userValue', function() {
