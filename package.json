@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "mocha --bail --timeout 200 --slow 99999 tests/**/*-spec.js",
-    "coverage": "node_modules/isparta/bin/isparta cover node_modules/mocha/bin/_mocha -- --bail --timeout 200 --slow 99999 -R dot tests/**/*-spec.js",
+    "coverage": "node_modules/isparta/bin/isparta cover node_modules/mocha/bin/_mocha -- --bail --timeout 200 --slow 99999 -R dot tests/**/*-spec.js"
   },
   "repository": {
     "type": "git",
