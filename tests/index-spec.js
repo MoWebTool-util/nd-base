@@ -1,7 +1,7 @@
 var expect = require('expect.js');
 var sinon = require('sinon');
 var Base = require('../index');
-var $ = require('jquery');
+var $ = require('nd-jquery');
 
 describe('Base', function() {
 
